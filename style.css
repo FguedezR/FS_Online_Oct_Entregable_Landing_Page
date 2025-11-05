@@ -107,6 +107,13 @@ nav ul {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 480px) {
+    nav ul {
+        display: none;
+    }
+    
+}
+
 nav a {
     display: flex;
     text-decoration: none;
@@ -147,6 +154,11 @@ div.hero-section p {
     color: white;
     margin-bottom: 16px;
 }
+@media screen and (max-width: 480px) {
+    div.hero-section p {
+        font-size: 10px;
+    }
+}
 
 div.hero-section h2 {
     font-size: var(--font-size-h1);
@@ -155,7 +167,13 @@ div.hero-section h2 {
     letter-spacing: 2px;
     color: white;
     margin-bottom: 16px;
-}   
+}
+@media screen and (max-width: 480px) {
+    div.hero-section h2 {
+        font-size: 20px;
+    }
+}
+
 .hero-section button {
     text-transform: uppercase;
     letter-spacing: 2px;
