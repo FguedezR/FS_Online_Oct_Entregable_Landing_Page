@@ -108,10 +108,12 @@ nav ul {
 }
 
 @media screen and (max-width: 480px) {
-    nav ul {
+    .languages {
         display: none;
     }
-    
+    nav ul li {
+        display: none;
+    }
 }
 
 nav a {
@@ -135,7 +137,7 @@ main section {
 
 img.main-background {
     background-size: contain;
-    filter: brightness(70%);
+    filter: brightness(50%);
     width: 100%;
 }
 
